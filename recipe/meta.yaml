@@ -1,5 +1,5 @@
 {% set name = "HiGHS" %}
-{% set version = "1.5.3" %}
+{% set version = "1.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/ERGO-Code/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ce1a7d2f008e60cc69ab06f8b16831bd0fcd5f6002d3bbebae9d7a3513a1d01d
+  sha256: e7a7e1985afc8df57135d1eaf502ed3886ab753f904923e474fb95cb3f9b4a74
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -26,7 +26,7 @@ test:
 
 about:
   home: https://github.com/ERGO-Code/HiGHS
-  summary: 'HiGHS is a high performance serial and parallel solver for large scale sparse linear optimization problems'
+  summary: HiGHS is a high performance serial and parallel solver for large scale sparse linear optimization problems
   description: |
     HiGHS is a high performance serial and parallel solver for large scale sparse linear optimization problems
   license: MIT
