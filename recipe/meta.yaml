@@ -1,5 +1,5 @@
 {% set name = "HiGHS" %}
-{% set version = "1.5.4" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ERGO-Code/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e7a7e1985afc8df57135d1eaf502ed3886ab753f904923e474fb95cb3f9b4a74
+  sha256: 71962981566477c72c51b8b722c5df053d857b05b4f0e6869f455f657b3aa193
 
 build:
   number: 0
