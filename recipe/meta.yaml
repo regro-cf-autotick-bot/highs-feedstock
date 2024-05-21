@@ -10,12 +10,12 @@ source:
   sha256: d10175ad66e7f113ac5dc00c9d6650a620663a6884fbf2942d6eb7a3d854604f
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
     - {{ compiler('cxx') }}
-    - cmake
+    - cmake >=3.15
     - make  # [unix]
 
 test:
@@ -39,4 +39,3 @@ extra:
   recipe-maintainers:
     - julian-belina
     - DerThorsten
-    - julian-belina
