@@ -191,4 +191,5 @@ Feedstock Maintainers
 =====================
 
 * [@DerThorsten](https://github.com/DerThorsten/)
+* [@julian-belina](https://github.com/julian-belina/)
 
