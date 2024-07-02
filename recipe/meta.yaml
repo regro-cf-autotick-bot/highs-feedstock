@@ -10,7 +10,6 @@ source:
   sha256: 5ff96c14ae19592d3568e9ae107624cbaf3409d328fb1a586359f0adf9b34bf7
 
 build:
-  noarch: python
   number: 0
 
 requirements:
@@ -20,7 +19,8 @@ requirements:
     - make  # [unix]
     - {{ stdlib("c") }}
   run:
-    - python >=3.8
+    # Should be limited to python >=3.8 but is not allowed
+    - python
     - numpy
 
 test:
