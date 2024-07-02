@@ -18,6 +18,9 @@ requirements:
     - cmake >=3.15
     - make  # [unix]
     - {{ stdlib("c") }}
+  run:
+    - python >=3.8
+    - numpy
 
 test:
   commands:
